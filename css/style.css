@@ -49,3 +49,86 @@ header .container .icons a{
   color: white;
 }
 /* ----------- */
+
+/* Main */
+
+main{
+  padding-top: 70px;
+}
+
+main .row{
+  margin: 50px auto;
+}
+
+main .row .scheda{
+  margin-bottom: 50px;
+  width: fit-content;
+}
+
+main .row .scheda .photo{
+  position: relative;
+}
+
+.fav{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2rem;
+}
+
+main .row .scheda .photo .fav{
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.tag{
+  display: inline-block;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  padding: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.tag.discount{
+  background-color: red;
+}
+
+.tag.eco{
+  background-color: green;
+}
+
+main .row .scheda .photo .tag-box{
+  position: absolute;
+  bottom: 42px;
+  left: 0;
+}
+
+main .row .scheda .photo img{
+  max-height: 625px;
+}
+
+main .row .scheda .text span:first-of-type{
+  font-size: 0.8rem;
+}
+
+main .row .scheda .text h4{
+  text-transform: uppercase;
+}
+
+main .row .scheda .text .price{
+  font-size: 0.9rem;
+}
+
+.price.new{
+  color: red;
+  font-weight: bold;
+}
+
+.price.old{
+  text-decoration: line-through;
+}
