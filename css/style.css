@@ -17,7 +17,7 @@ body{
 ul li{
   display: inline-block;
   list-style: none;
-  padding-left: 5px;
+  padding-right: 5px;
 }
 
 a{
@@ -157,4 +157,33 @@ main .row .scheda .text .price{
 .price.old{
   text-decoration: line-through;
 }
+
+/* Footer */
+footer{
+  background-color: #1A1A1A;
+  color: white;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+footer .icons, footer nav{
+  margin-top: 10px;
+}
+
+footer .icons{
+  font-size: 22px;
+}
+
+footer .container span{
+  font-weight: bold;
+}
+
+footer .footer-social span, footer .footer-left nav{
+  font-size: 0.8rem;
+}
+
 
