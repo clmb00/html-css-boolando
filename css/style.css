@@ -70,6 +70,12 @@ main .row .scheda .photo{
   position: relative;
 }
 
+main .row .scheda .photo .main-version{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .fav{
   background-color: white;
   height: 50px;
@@ -113,6 +119,10 @@ main .row .scheda .photo img{
   max-height: 625px;
 }
 
+main .row .scheda .photo:hover .main-version{
+  display: none;
+}
+
 main .row .scheda .text span:first-of-type{
   font-size: 0.8rem;
 }
@@ -133,3 +143,4 @@ main .row .scheda .text .price{
 .price.old{
   text-decoration: line-through;
 }
+
