@@ -10,7 +10,7 @@ body{
 
 .container{
   width: 80%;
-  max-width: 1200px;
+  max-width: 1340px;
   margin: 0 auto;
 }
 
@@ -59,11 +59,17 @@ main{
 
 main .row{
   margin: 50px auto;
+  text-align: center;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; */
 }
 
 main .row .scheda{
   margin-bottom: 50px;
   width: fit-content;
+  display: inline-block;
 }
 
 main .row .scheda .photo{
